@@ -7,7 +7,7 @@ namespace FinalProjectGoW.Pages;
 
 public class CharacterGoWModel : PageModel
 {
-    private readonly CharacterGoWContext _context;  //replaces the "db" variable
+    private readonly CharacterGoWContext _context;
    private readonly ILogger<CharacterGoWModel>_logger;
 
    [BindProperty]
