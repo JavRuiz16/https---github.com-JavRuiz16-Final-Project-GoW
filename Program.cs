@@ -19,6 +19,14 @@ using (var scope = app.Services.CreateScope())
     SeedData.Initialize(services);
 }
 
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    
+    SeedData.Initialize(services);
+}
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
