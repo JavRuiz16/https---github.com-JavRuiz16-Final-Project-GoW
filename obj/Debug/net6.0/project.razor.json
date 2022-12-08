@@ -16331,11 +16331,6 @@
       "FilePath": "c:\\Users\\JavRu\\Desktop\\Fall 2022\\Adv. Bus Programming\\Final Project GoW\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JavRu\\Desktop\\Fall 2022\\Adv. Bus Programming\\Final Project GoW\\Pages\\CharacterGoW.cshtml",
-      "TargetPath": "Pages\\CharacterGoW.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
