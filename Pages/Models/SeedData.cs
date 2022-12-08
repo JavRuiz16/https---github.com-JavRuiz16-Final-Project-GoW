@@ -5,23 +5,23 @@ namespace Final_Project_GoW.Models
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new DbContext(
-                serviceProvider.GetRequiredService<DbContextOptions<GodofWarDbContext>>()))
+            using (var context = new CharacterGoWContext(
+                serviceProvider.GetRequiredService<DbContextOptions<CharacterGoWContext>>()))
             {
-                // Look for any blogs.
-                if (context.GodofWar.Any())
+                // Look for Game Character
+                if (context.CharacterGoW.Any())
                 {
                     return; // DB has been seeded
                 }
                 
-                context.Blogs.AddRange(
-                    new Blog
+                context.CharacterGoW.AddRange(
+                    new CharacterGoW
                     {
-                        Title = "My First Blog"
+                        Title = "Kratos"
                     },
-                    new Blog
+                    new CharacterGoW
                     {
-                        Title = "My Second Blog"
+                        Title = "Atreus"
                     }
                 );
                 
