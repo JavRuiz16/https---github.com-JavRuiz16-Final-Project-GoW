@@ -1,0 +1,8 @@
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.csproj.AssemblyReference.cache
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.AssemblyInfoInputs.cache
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.AssemblyInfo.cs
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.csproj.CoreCompileInputs.cache
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.RazorAssemblyInfo.cache
+C:\Users\JavRu\Desktop\Fall 2022\Adv. Bus Programming\Final Project GoW\obj\Debug\net6.0\Final Project GoW.RazorAssemblyInfo.cs
