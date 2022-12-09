@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesAbilities.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Final_Project_GoW.Pages

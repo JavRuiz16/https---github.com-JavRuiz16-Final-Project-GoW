@@ -4,7 +4,7 @@ namespace Final_Project_GoW.Models
 {
  	public class Abilities
     {
-    public int AbilitiesID {get; set;} //Primary Key
+    public int AbilitiesID {get; set;} 
 
     [Required]
     [StringLength(40, MinimumLength =4)]
