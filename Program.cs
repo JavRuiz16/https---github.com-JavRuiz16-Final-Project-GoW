@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<CharacterGoWContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("BlogContext")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("CharacterGoWContext")));
 
 
 var app = builder.Build();
