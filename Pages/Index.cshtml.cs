@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using Final_Project_GoW.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Final_Project_GoW.Pages;
 
