@@ -1,0 +1,40 @@
+@page
+@model AbilitiesModel
+
+@{
+    ViewData["Title"] = "Review Abilities";
+}
+
+<h1>Create</h1>
+
+<h4>Review</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Review.AbilitiesId" class="control-label"></label>
+                <select asp-for="Review.AbilitiesId" asp-items="Model.AbilitiesDropDown" class="form-control">
+                    <option value="">--Select Movie--</option> 
+                </select>
+                <span asp-validation-for="Review.AbilitiesId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Review.Ability" class="control-label"></label>
+                <input asp-for="Review.Ability" class="form-control" />
+                <span asp-validation-for="Review.Ability" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Review Ability" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
